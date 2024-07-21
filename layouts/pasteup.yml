@@ -1,0 +1,37 @@
+---
+background:
+  x: 0
+  y: 0
+  width: 2.5in
+  height: 1.286in
+name:
+  x: 0
+  y: 0.94in
+  width: :deck
+  height: 1in
+  align: center
+  color: "#d6cb6a"
+  stroke_width: 0.5
+  font: Arial bold 10
+name_shadow:
+  extends: name
+  x: += 0.01in
+  y: += 0.01in
+  color: "#2d2c2c"
+  stroke_width: 2
+effect:
+  x: 0.16in
+  y: 0.01in
+  width: 2.18in
+  height: 0.8in
+  wrap: :word
+  color: :white
+  font: Arial 6
+  ellipsize: :autoscale
+quote:
+  x: 0.16in
+  y: 0.72in
+  width: 2.18in
+  color: :white
+  align: center
+  font: Arial italic 5

@@ -98,10 +98,10 @@
     - name: Purple Mist's Guidance
       quote: "I'll scatter them beautifully."
       effect: |
-        Depending on the number of cards in your discard pile, this art has all of the following effects:
+        Depending on the number of cards in your discard pile, this gains the following:
 
         • 10 or more: [ACTIVE]
-        • 15 or more: [DRIVE]: Target 1 of your opponent's arts and destroy it.
+        • 15 or more: [DRIVE]: Target 1 of your opponent's arts, destroy it.
         • 20 or more: This art gets +6 power.
         • 25 or more: When this art deals damage to your opponent, you win the game.
 - name: Lucia Silveira

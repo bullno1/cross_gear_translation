@@ -1,0 +1,101 @@
+---
+sheet_width: 8.267716535433072in
+sheet_height: 11.692913385826772in
+card_width: 2.5in
+card_height: 1.286in
+cards:
+- x: 0.2838582677165358in
+  "y": 0.2in
+- x: 2.883858267716536in
+  "y": 0.2in
+- x: 5.483858267716536in
+  "y": 0.2in
+- x: 0.2838582677165358in
+  "y": 1.5860000000000003in
+- x: 2.883858267716536in
+  "y": 1.5860000000000003in
+- x: 5.483858267716536in
+  "y": 1.5860000000000003in
+- x: 0.2838582677165358in
+  "y": 2.9720000000000004in
+- x: 2.883858267716536in
+  "y": 2.9720000000000004in
+- x: 5.483858267716536in
+  "y": 2.9720000000000004in
+- x: 0.2838582677165358in
+  "y": 4.3580000000000005in
+- x: 2.883858267716536in
+  "y": 4.3580000000000005in
+- x: 5.483858267716536in
+  "y": 4.3580000000000005in
+- x: 0.2838582677165358in
+  "y": 5.744000000000001in
+- x: 2.883858267716536in
+  "y": 5.744000000000001in
+- x: 5.483858267716536in
+  "y": 5.744000000000001in
+- x: 0.2838582677165358in
+  "y": 7.130000000000001in
+- x: 2.883858267716536in
+  "y": 7.130000000000001in
+- x: 5.483858267716536in
+  "y": 7.130000000000001in
+- x: 0.2838582677165358in
+  "y": 8.516in
+- x: 2.883858267716536in
+  "y": 8.516in
+- x: 5.483858267716536in
+  "y": 8.516in
+- x: 0.2838582677165358in
+  "y": 9.902in
+- x: 2.883858267716536in
+  "y": 9.902in
+- x: 5.483858267716536in
+  "y": 9.902in
+crop_line:
+  overlay: :overlay_on_cards
+  lines:
+  - type: :vertical
+    position: 0.2838582677165358in
+  - type: :vertical
+    position: 2.7838582677165356in
+  - type: :vertical
+    position: 2.883858267716536in
+  - type: :vertical
+    position: 5.383858267716536in
+  - type: :vertical
+    position: 5.483858267716536in
+  - type: :vertical
+    position: 7.983858267716536in
+  - type: :horizontal
+    position: 0.2in
+  - type: :horizontal
+    position: 1.486in
+  - type: :horizontal
+    position: 1.5860000000000003in
+  - type: :horizontal
+    position: 2.8720000000000003in
+  - type: :horizontal
+    position: 2.9720000000000004in
+  - type: :horizontal
+    position: 4.258000000000001in
+  - type: :horizontal
+    position: 4.3580000000000005in
+  - type: :horizontal
+    position: 5.644in
+  - type: :horizontal
+    position: 5.744000000000001in
+  - type: :horizontal
+    position: 7.030000000000001in
+  - type: :horizontal
+    position: 7.130000000000001in
+  - type: :horizontal
+    position: 8.416in
+  - type: :horizontal
+    position: 8.516in
+  - type: :horizontal
+    position: 9.802in
+  - type: :horizontal
+    position: 9.902in
+  - type: :horizontal
+    position: 11.187999999999999in
