@@ -10,15 +10,15 @@ name:
   width: :deck
   height: 1in
   align: center
-  color: "#d6cb6a"
+  color: "(0,285)(0,330) gold@0.0 yellow@1.0"
   stroke_width: 0.5
   font: Arial bold 10
 name_shadow:
   extends: name
-  x: += 0.01in
-  y: += 0.01in
+  x: += 0.005in
+  y: += 0.005in
   color: "#2d2c2c"
-  stroke_width: 2
+  stroke_width: 1
 effect:
   x: 0.16in
   y: 0.01in
