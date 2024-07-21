@@ -26,7 +26,7 @@ effect:
   height: 0.8in
   wrap: :word
   color: :white
-  font: Arial 6
+  font: Noto Sans Medium 6
   ellipsize: :autoscale
 quote:
   x: 0.16in

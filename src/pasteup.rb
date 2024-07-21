@@ -11,7 +11,7 @@ effects = []
 characters['cards'].each do |card|
   (0..2).each do |i|
     names.push(card[i]["name"])
-    quotes.push(card[i]["quote"])
+    quotes.push('"' + card[i]["quote"] + '"')
     effects.push(card[i]["effect"])
   end
 end

@@ -6,8 +6,7 @@
       effect: |
         [ENTER] GEARLINK ④: Ready all of your GEAR cards.
         [DRIVE] Choose one:
-
-        • Target 1 of your opponent's DRIVE cards and destroy it.
+        • Target 1 of your opponent's DRIVE cards, destroy it.
         • You may discard 1 card from your hand. If you do, draw 1 card.
     - name: Magnificent Dance
       quote: "If you can dodge this, I'll commend you."
@@ -33,7 +32,6 @@
       quote: "Potato, show them!"
       effect: |
         [ENTER] GEARLINK ②: Choose one:
-
         • You gain a GEAR card.
         • Target 1 of your arts, it gains: "This turn, this art can't be blocked by your opponent's arts.".
         • Target 1 of your arts, it gets +3 power until the end phase.
@@ -48,8 +46,7 @@
     - name: Blood-soaked Crimson Wings
       quote: "Magnificent, aren't they?"
       effect: |
-        [ENTER]: Target 1 of your arts and destroy it. Then, choose one:
-
+        [ENTER]: Target 1 of your arts, destroy it. Then, choose one:
         • You draw 2 cards.
         • You gain 4 life.
         • Target 1 "Result of Bewitchment" in your discard pile, add it to your hand.
@@ -77,7 +74,7 @@
       quote: "I won't miss that opening!"
       effect: |
         [ENTER] GEARLINK ②: You gain 5 life.
-        [ATTACK]: Target 1 of your opponent's exhausted arts and destroy it.
+        [ATTACK]: Target 1 of your opponent's exhausted arts, destroy it.
     - name: Firm Will
       quote: "I can't go easy on you."
       effect: |
@@ -98,8 +95,7 @@
     - name: Purple Mist's Guidance
       quote: "I'll scatter them beautifully."
       effect: |
-        Depending on the number of cards in your discard pile, this gains the following:
-
+        This art gains all of the following effects based on the number of cards in your discard pile:
         • 10 or more: [ACTIVE]
         • 15 or more: [DRIVE]: Target 1 of your opponent's arts, destroy it.
         • 20 or more: This art gets +6 power.
@@ -110,7 +106,6 @@
       quote: "I'll show you the results of my research."
       effect: |
         [RETREAT] GEARLINK ①: Choose one:
-
         • You gain 3 life.
         • Target your opponent, randomly discard up to 2 cards from their hand.
         • Target 1 of your opponent's arts and deal it 3 damage. If it [EXIT], banish it instead.
@@ -149,7 +144,6 @@
       effect: |
         [ENTER]: Target 1 card from your hand, put it into play.
         [RETREAT] GEARLINK ①: Choose one:
-
         • You gain 3 life.
         • Target 1 of your opponent's arts, exhaust it.
     - name: Outstanding Intellect
