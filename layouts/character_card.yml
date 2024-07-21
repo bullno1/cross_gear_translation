@@ -1,0 +1,45 @@
+---
+name:
+  x: 0.05in
+  y: 0.05in
+  width: 2.4in
+  height: 3.4in
+  align: center
+  font: Arial 8
+separator_1:
+  x1: 0
+  x2: 2.5in
+  y1: 0.2in
+  y2: 0.2in
+separator_2:
+  extends: separator_1
+  y1: += 1.1in
+  y2: += 1.1in
+separator_3:
+  extends: separator_2
+  y1: += 1.1in
+  y2: += 1.1in
+card_1.name:
+  x: 0.05in
+  y: 0.22in
+  font: Arial bold 8
+card_2.name:
+  extends: card_1.name
+  y: += 1.1in
+card_3.name:
+  extends: card_2.name
+  y: += 1.1in
+card_1.effect:
+  extends: card_1.name
+  y: += 0.15in
+  width: 2.4in
+  height: 1.0in
+  font: Arial 7
+  wrap: :word
+  ellipsize: :autoscale
+card_2.effect:
+  extends: card_1.effect
+  y: += 1.1in
+card_3.effect:
+  extends: card_2.effect
+  y: += 1.1in

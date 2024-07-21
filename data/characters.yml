@@ -1,0 +1,164 @@
+---
+- name: Aria Valentine
+  cards:
+    - name: Calm Reload
+      quote: "I used to drink it, you know?"
+      effect: |
+        [ENTER] GEARLINK ④: Ready all of your GEAR cards.
+        [DRIVE] Choose one:
+
+        • Target 1 of your opponent's DRIVE cards and destroy it.
+        • You may discard 1 card from your hand. If you do, draw 1 card.
+    - name: Magnificent Dance
+      quote: "If you can dodge this, I'll commend you."
+      effect: |
+        [ENTER] GEARLINK ②: Target your opponent or 1 of their arts and deal the target 3 damage.
+
+        [ATTACK] Target your opponent or 1 of their arts and deal the target 2 damage.
+    - name: Terrifying Bullet
+      quote: "Checkmate."
+      effect: |
+        When this art deals damage to your opponent, the damage is doubled.
+
+        [ATTACK] GEARLINK ④: Deals 3 damage to all of your opponent's arts.
+- name: Canon Bennett
+  cards:
+    - name: Animal Coordination
+      quote: "Potato, Ready, set, go!!"
+      effect: |
+        While this art is in play, your other arts get +1 power.
+
+        [ATTACK] GEARLINK ①: Find 1 "Animal Coordination" card in your deck and put it into play. Shuffle your deck.
+    - name: Superior Talent
+      quote: "Potato, show them!"
+      effect: |
+        [ENTER] GEARLINK ②: Choose one:
+
+        • You gain a GEAR card.
+        • Target 1 of your arts, it gains: "This turn, this art can't be blocked by your opponent's arts.".
+        • Target 1 of your arts, it gets +3 power until the end phase.
+    - name: White Wolf's Charge
+      quote: "Potato, special attack ♪"
+      effect: |
+        This art gets +X power. X is the number of "Animal Coordination" cards in your discard pile.
+
+        [DRIVE]: Target 1 of your art and 1 of your opponent's arts. Deal 4 damage to each target.
+- name: Lelia Rosenkreuz
+  cards:
+    - name: Blood-soaked Crimson Wings
+      quote: "Magnificent, aren't they?"
+      effect: |
+        [ENTER]: Target 1 of your arts and destroy it. Then, choose one:
+
+        • You draw 2 cards.
+        • You gain 4 life.
+        • Target 1 "Result of Bewitchment" in your discard pile, add it to your hand.
+    - name: Ultimate Price
+      quote: "Get it before it's too late."
+      effect: |
+        [ENTER]: You lose 4 life.
+        [ENTER] GEARLINK ①: Reveal the top 3 cards of your deck, add 1 to your hand, discard the rest.
+        [EXIT]: Target your opponent or 1 of their arts, deal the target 4 damage.
+    - name: Result of Bewitchment
+      quote: "I'll have your life."
+      effect: |
+        [ACTIVE] [DRAIN]
+        [ENTER]: You lose 6 life.
+        [ENTER] GEARLINK Ⓧ: Target X "Result of Bewitchment" in your discard pile and DRIVE them into this art.
+        [ATTACK]: You may discard 1 DRIVE card from this art. If you do, destroy 1 of your opponent's arts with the lowest power.
+- name: Charlotte Olivier
+  cards:
+    - name: Moment of Silence
+      quote: "I can read it!"
+      effect: |
+        [ENTER]: Reveal the top 3 cards of your deck, add 1 to your hand, return the rest to the bottom of your deck in any order.
+        [RETREAT] GEARLINK ①: target 1 of your your arts and ready it.
+    - name: Composure
+      quote: "I won't miss that opening!"
+      effect: |
+        [ENTER] GEARLINK ②: You gain 5 life.
+        [ATTACK]: Target 1 of your opponent's exhausted arts and destroy it.
+    - name: Firm Will
+      quote: "I can't go easy on you."
+      effect: |
+        For each DRIVE card under this art, it gets +1 power.
+        [ATTACK] GEARLINK ①: Target 1 of your opponent's arts, ready it, it must block this art. Then, ready this art, you gain 2 life.
+- name: Sharon Crawford
+  cards:
+    - name: Sword of Might and Wisdom
+      quote: "Leave the rearguard to me and go wild."
+      effect: |
+        When 1 of your opponent's arts [EXIT], target your opponent and deal them 1 damage.
+        [EXIT] GEARLINK ②: Target 1 art in your discard pile and put it into play.
+    - name: Raging Flame
+      quote: "Feel honored to be burned."
+      effect: |
+        [ENTER] GEARLINK ①: Discard the top 4 cards of your deck.
+        [ATTACK]: Target one of your opponent's arts, deal it 3 damage.
+    - name: Purple Mist's Guidance
+      quote: "I'll scatter them beautifully."
+      effect: |
+        Depending on the number of cards in your discard pile, this art has all of the following effects:
+
+        • 10 or more: [ACTIVE]
+        • 15 or more: [DRIVE]: Target 1 of your opponent's arts and destroy it.
+        • 20 or more: This art gets +6 power.
+        • 25 or more: When this art deals damage to your opponent, you win the game.
+- name: Lucia Silveira
+  cards:
+    - name: Theory of Decay and Destruction
+      quote: "I'll show you the results of my research."
+      effect: |
+        [RETREAT] GEARLINK ①: Choose one:
+
+        • You gain 3 life.
+        • Target your opponent, randomly discard up to 2 cards from their hand.
+        • Target 1 of your opponent's arts and deal it 3 damage. If it [EXIT], banish it instead.
+    - name: Synthesis of Void and Wisdom
+      quote: "Even the light seeping through my fingers is cut off, and even..."
+      effect: |
+        When this art gets its 6th DRIVE card, ready all your arts.
+        [DRIVE]: Target 2 of your face down GEAR cards, return them to the GEAR area. Then, gain 2 GEAR cards.
+    - name: "Fabricated Power"
+      quote: "I'll fight with the full power of Creation."
+      effect: |
+        [ENTER] GEARLINK ②: Take 1 card from your hand, flip it face down, treat it as the same card as 1 of your arts on the field and DRIVE it. This cards is now considered a DRIVE card.
+        [ATTACK] GEARLINK ②: Until the end phase, this art gets +X power. X is the number of your face down GEAR cards.
+- name: Islay Rothery
+  cards:
+    - name: Transfer Operation
+      quote: "Do you think you can win?"
+      effect: |
+        [ENTER] GEARLINK ①: Reveal 5 cards from the top of your deck and discard them. Then, target 3 cards in your discard pile and return them to the bottom of your deck in any order.
+        [EXIT] GEARLINK ①: Reveal 1 card from the bottom of your deck and put it into play.
+    - name: State of Transcendance
+      quote: "Sorry, your plan didn't work."
+      effect: |
+        [SPIKE]
+        [ATTACK] GEARLINK ①: Until the end phase, this art gets +3 power.
+        [EXIT] GEARLINK ①: You may discard 1 "Chosen for Condemnation" from your hand. If you do so, target 1 of your opponent's arts and return it to the bottom of their deck.
+    - name: Chosen for Condemnation
+      quote: "Let's get this over with."
+      effect: |
+        [ENTER] GEARLINK ④: Destroy all other arts.
+        [DRIVE] GEARLINK ①: Target your opponent or 1 of their arts and deal the target 4 damage.
+- name: Alicia Heart
+  cards:
+    - name: Radiant Magical Power
+      quote: "I got your back, leave it to me."
+      effect: |
+        [ENTER]: Target 1 card from your hand, put it into play.
+        [RETREAT] GEARLINK ①: Choose one:
+
+        • You gain 3 life.
+        • Target 1 of your opponent's arts, exhaust it.
+    - name: Outstanding Intellect
+      quote: "It's important to plan ahead, isn't it?"
+      effect: |
+        At the end of your opponent's ready & draw phase, GEARLINK ④: Exhaust all their arts.
+        [ENTER]: You may target 2 of your arts and destroy them. If you do, target your opponent or 1 of their arts and deal the target 3 damage.
+    - name: Looping Dark Barrier
+      quote: "You shall not pass"
+      effect: |
+        When this art takes damage, you may discard 1 of its DRIVE card instead.
+        [DRIVE] Ready this art.

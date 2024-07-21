@@ -1,0 +1,51 @@
+---
+sheet_width: 8.267716535433072in
+sheet_height: 11.692913385826772in
+card_width: 2.5in
+card_height: 3.5in
+cards:
+- x: 0.2838582677165358in
+  "y": 0.225in
+- x: 2.883858267716536in
+  "y": 0.225in
+- x: 5.483858267716536in
+  "y": 0.225in
+- x: 0.2838582677165358in
+  "y": 3.825in
+- x: 2.883858267716536in
+  "y": 3.825in
+- x: 5.483858267716536in
+  "y": 3.825in
+- x: 0.2838582677165358in
+  "y": 7.425in
+- x: 2.883858267716536in
+  "y": 7.425in
+- x: 5.483858267716536in
+  "y": 7.425in
+crop_line:
+  overlay: :overlay_on_cards
+  lines:
+  - type: :vertical
+    position: 0.2838582677165358in
+  - type: :vertical
+    position: 2.7838582677165356in
+  - type: :vertical
+    position: 2.883858267716536in
+  - type: :vertical
+    position: 5.383858267716536in
+  - type: :vertical
+    position: 5.483858267716536in
+  - type: :vertical
+    position: 7.983858267716536in
+  - type: :horizontal
+    position: 0.225in
+  - type: :horizontal
+    position: 3.725in
+  - type: :horizontal
+    position: 3.825in
+  - type: :horizontal
+    position: 7.325in
+  - type: :horizontal
+    position: 7.425in
+  - type: :horizontal
+    position: 10.925in
