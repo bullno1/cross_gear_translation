@@ -96,10 +96,10 @@
       quote: "I'll scatter them beautifully."
       effect: |
         This art gains all of the following effects based on the number of cards in your discard pile:
-        • 10 or more: [ACTIVE]
-        • 15 or more: [DRIVE]: Target 1 of your opponent's arts, destroy it.
-        • 20 or more: This art gets +6 power.
-        • 25 or more: When this art deals damage to your opponent, you win the game.
+        • ≥ 10: [ACTIVE]
+        • ≥ 15: [DRIVE]: Target 1 of your opponent's arts, destroy it.
+        • ≥ 20: This art gets +6 power.
+        • ≥ 25: When this art deals damage to your opponent, you win.
 - name: Lucia Silveira
   cards:
     - name: Theory of Decay and Destruction
