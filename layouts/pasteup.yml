@@ -6,31 +6,31 @@ background:
   height: 1.286in
 name:
   x: 0
-  y: 0.99in
+  y: 1.04in
   width: :deck
   height: 1in
   align: center
-  color: "(0,289)(0,330) gold@0.0 yellow@1.0"
+  color: "(0,305)(0,345) gold@0.0 yellow@1.0"
   stroke_width: 0.5
-  font: Arial bold 10
+  font: Arial bold 9
 name_shadow:
   extends: name
   x: += 0.005in
   y: += 0.005in
   color: "#2d2c2c"
-  stroke_width: 1
+  stroke_width: 2
 effect:
-  x: 0.11in
+  x: 0.10in
   y: 0.01in
   width: 2.3in
-  height: 0.92in
+  height: 0.85in
   wrap: :word
   color: :white
   font: Noto Sans Medium 8
   ellipsize: :autoscale
 quote:
   x: 0.16in
-  y: 0.8in
+  y: 0.88in
   width: 2.18in
   color: :white
   align: center

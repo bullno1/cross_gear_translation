@@ -5,7 +5,7 @@
       quote: "I was once looked down on too."
       effect: |
         [ENTER] GEARLINK ④: Ready all of your GEAR cards.
-        [DRIVE] Choose one:
+        [DRIVE]: Choose one:
         • Target 1 of your opponent's DRIVE cards, destroy it.
         • You may discard 1 card from your hand. If you do, draw 1 card.
     - name: Magnificent Swing
@@ -91,7 +91,7 @@
     - name: Purple Mist's Guidance
       quote: "I'll scatter them beautifully."
       effect: |
-        This art gains all of the following effects based on the number of cards in your discard pile:
+        This art gains all of the following effects if the number of cards in your discard pile is:
         • ≥ 10: [ACTIVE]
         • ≥ 15: [DRIVE]: Target 1 of your opponent's arts, destroy it.
         • ≥ 20: This art gets +6 power.
@@ -151,4 +151,4 @@
       quote: "You shall not pass"
       effect: |
         When this art takes damage, you may discard 1 of its DRIVE cards instead.
-        [DRIVE] Ready this art.
+        [DRIVE]: Ready this art.
