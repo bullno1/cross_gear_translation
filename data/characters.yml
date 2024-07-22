@@ -150,5 +150,5 @@
     - name: Looping Dark Barrier
       quote: "You shall not pass"
       effect: |
-        When this art takes damage, you may discard 1 of its DRIVE card instead.
+        When this art takes damage, you may discard 1 of its DRIVE cards instead.
         [DRIVE] Ready this art.
