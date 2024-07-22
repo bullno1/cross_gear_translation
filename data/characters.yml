@@ -110,7 +110,7 @@
       effect: |
         When this art gets its 6th DRIVE card, ready all your arts.
         [DRIVE]: Target 2 of your face down GEAR cards, return them to the GEAR area. Then, gain 2 GEAR cards.
-    - name: "Illusory Power"
+    - name: "Fabricated Power"
       quote: "I'll fight with the full power of Creation."
       effect: |
         [ENTER] GEARLINK ②: Take 1 card from your hand, flip it face down, DRIVE it into one of your arts on the field. This cards is now considered a DRIVE card.

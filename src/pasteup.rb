@@ -12,7 +12,12 @@ characters['cards'].each do |card|
   (0..2).each do |i|
     names.push(card[i]["name"])
     quotes.push('"' + card[i]["quote"] + '"')
-    effects.push(card[i]["effect"].strip)
+    effects.push(
+      card[i]["effect"]
+        .strip
+        .gsub("&", "&amp;")  # Escape for markup
+        .gsub(/\[([^\]]*)\]/, '<b>[\1]</b>')  # Turn "[TEXT]" into "<b>[TEXT]</b>"
+    )
   end
 end
 
@@ -20,6 +25,7 @@ cards = Squib::DataFrame.new
 cards["name"] = names
 cards["quote"] = quotes
 cards["effect"] = effects
+#puts(cards.to_pretty_text)
 
 Squib::Deck.new(cards: cards['name'].size, width: '2.5in', height: '1.286in') do
   use_layout file: "layouts/pasteup.yml"

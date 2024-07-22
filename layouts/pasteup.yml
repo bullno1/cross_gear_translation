@@ -28,6 +28,7 @@ effect:
   color: :white
   font: Noto Sans Medium 8
   ellipsize: :autoscale
+  markup: true
 quote:
   x: 0.16in
   y: 0.88in
@@ -35,3 +36,4 @@ quote:
   color: :white
   align: center
   font: Arial Italic 6
+  markup: true
