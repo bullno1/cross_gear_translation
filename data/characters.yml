@@ -12,13 +12,11 @@
       quote: "If you can dodge this, I'll commend you."
       effect: |
         [ENTER] GEARLINK ②: Target your opponent or 1 of their arts and deal the target 3 damage.
-
         [ATTACK] Target your opponent or 1 of their arts and deal the target 2 damage.
     - name: Terrifying Bullet
       quote: "Yes, checkmate."
       effect: |
         When this art deals damage to your opponent, the damage is doubled.
-
         [ATTACK] GEARLINK ④: Deals 3 damage to all of your opponent's arts.
 - name: Canon Bennett
   cards:
@@ -26,7 +24,6 @@
       quote: "Potato, ready, set, go!!"
       effect: |
         While this art is in play, your other arts get +1 power.
-
         [ATTACK] GEARLINK ①: Find 1 "Animal Cooperation" card in your deck and put it into play. Shuffle your deck.
     - name: Superior Talent
       quote: "Potato, show them!"
@@ -39,7 +36,6 @@
       quote: "Potato, special attack ♪"
       effect: |
         This art gets +X power. X is the number of "Animal Cooperation" cards in your discard pile.
-
         [DRIVE]: Target 1 of your art and 1 of your opponent's arts. Deal 4 damage to each target.
 - name: Lelia Rosenkreuz
   cards:
@@ -99,7 +95,7 @@
         • ≥ 10: [ACTIVE]
         • ≥ 15: [DRIVE]: Target 1 of your opponent's arts, destroy it.
         • ≥ 20: This art gets +6 power.
-        • ≥ 25: When this art deals damage to your opponent, you win.
+        • ≥ 25: When this art deals damage to your opponent, you win the game.
 - name: Lucia Silveira
   cards:
     - name: Theory of Decay and Destruction
@@ -110,14 +106,14 @@
         • Target your opponent, randomly discard up to 2 cards from their hand.
         • Target 1 of your opponent's arts and deal it 3 damage. If it [EXIT], banish it instead.
     - name: Synthesis of Void and Wisdom
-      quote: "Even the light seeping through my fingers is focusing, and even..."
+      quote: "Even the light seeping through my fingers is focusing..."
       effect: |
         When this art gets its 6th DRIVE card, ready all your arts.
         [DRIVE]: Target 2 of your face down GEAR cards, return them to the GEAR area. Then, gain 2 GEAR cards.
     - name: "Illusory Power"
       quote: "I'll fight with the full power of Creation."
       effect: |
-        [ENTER] GEARLINK ②: Take 1 card from your hand, flip it face down, treat it as the same card as 1 of your arts on the field and DRIVE it. This cards is now considered a DRIVE card.
+        [ENTER] GEARLINK ②: Take 1 card from your hand, flip it face down, DRIVE it into one of your arts on the field. This cards is now considered a DRIVE card.
         [ATTACK] GEARLINK ②: Until the end phase, this art gets +X power. X is the number of your face down GEAR cards.
 - name: Islay Rothery
   cards:
