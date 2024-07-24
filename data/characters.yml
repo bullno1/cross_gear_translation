@@ -29,7 +29,7 @@
       quote: "Potato, show them!"
       effect: |
         [ENTER] GEARLINK ②: Choose one:
-        • You gain a GEAR card.
+        • You gain 1 GEAR card.
         • Target 1 of your arts, it gains: "This turn, this art can't be blocked by your opponent's arts.".
         • Target 1 of your arts, it gets +3 power until the end phase.
     - name: White Wolf's Charge
