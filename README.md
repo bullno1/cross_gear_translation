@@ -8,6 +8,8 @@ Translation for the card game Cross Gear: https://www.drive-games.com/cross-gear
 
 The paste up and character cards will be generated in `_output`.
 
+To watch and build on change: `bundle exec guard -g default`.
+
 # To build the rule book
 
 1. Install [typst](https://typst.app/).
@@ -15,3 +17,5 @@ The paste up and character cards will be generated in `_output`.
 3. `typst compile rulebook.typ`.
 
 `rulebook.pdf` will be generated.
+
+To watch, use the [typst-lsp](https://github.com/nvarner/typst-lsp).
