@@ -187,7 +187,7 @@ Notes:
   If there is an \[ATTACK\] effect, it will be resolved after target declaration.
 + Block declaration step
 
-  The player being attacked may choose one of their ready art and make it the target of the attack instead.
+  The player being attacked may choose one of their ready arts and make it the target of the attack instead.
   This is called a block.
 + Damage step
   - If block was declared.
@@ -207,7 +207,7 @@ Do the following in order then pass turn to your opponent:
 + If there is any effect that activates during the End Phase, resolve it.
 + If the active player has 6 or more cards in their hand, discard until they have 5 cards.
 + Heal all damage from all arts.
-+ This there is a continuous effect with "until the end phase" or "this turn", the effect ends.
++ If there is a continuous effect with "until the end phase" or "this turn", the effect ends.
 
 == Additional notes
 

@@ -145,7 +145,7 @@
     - name: Outstanding Intellect
       quote: "It's important to plan ahead, right?"
       effect: |
-        At the end of your opponent's ready & draw phase, GEARLINK ④: Exhaust all their arts.
+        At the end of your opponent's ready & draw phase, GEARLINK ④: Exhaust all of their arts.
         [ENTER]: You may target 2 of your arts and destroy them. If you do, target your opponent or 1 of their arts and deal the target 3 damage.
     - name: Looping Dark Barrier
       quote: "You shall not pass"
