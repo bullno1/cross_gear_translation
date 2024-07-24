@@ -113,7 +113,7 @@
     - name: "Fabricated Power"
       quote: "I'll fight with the full power of Creation."
       effect: |
-        [ENTER] GEARLINK ②: Take 1 card from your hand, flip it face down, DRIVE it into one of your arts on the field. This cards is now considered a DRIVE card.
+        [ENTER] GEARLINK ②: Take 1 card from your hand, flip it face down, DRIVE it into one of your arts on the field. That card is now considered a DRIVE card.
         [ATTACK] GEARLINK ②: Until the end phase, this art gets +X power. X is the number of your face down GEAR cards.
 - name: Islay Rothery
   cards:
