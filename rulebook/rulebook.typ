@@ -1,5 +1,11 @@
 #import "@preview/wrap-it:0.1.0": wrap-content
+
+#set document(title: [CROSS GEAR rule])
+
 #show link: underline
+
+#show heading.where(level: 1): set align(center)
+
 
 = Play area
 
@@ -83,22 +89,22 @@ You win if you meet any of the following conditions:
 
 = Setup
 
-- Each player starts with 20 life (managed with calculators, notes, etc...)
-  There is no life limit.
+- Each player starts with 20 life (managed with calculators, notes, etc...).
+  There is no upper limit.
   When life is gained, it is possible to go over the initial 20.
 - Each player place 10 GEAR cards face down in their GEAR area.
 - For first time players, we recommend excluding the advanced characters, Sharon and Lucia, from character selection.
 
 == Playing with one common set
 
-+ A random player (chosen by "rock, paper, scissor" or other means), chooses to become the "First character selector" or "Initiative selector".
-   Perform character selection then initiative selection.
++ A random player (chosen by "rock, paper, scissor" or other means), chooses between getting to pick character first or getting to decide turn order.
+  Perform "Character selection" then "Turn order selection".
 
-   If you are the "First character selector" picks one character from your CROSS GEAR set and put it in your character area.
-   You will also receive all art cards for that character (3 types x 5 copies).
-   Character selection proceeds in this order: You → Opponent → You → Opponent.
+  "Character selection": If you get to choose character first, pick one character from your CROSS GEAR set and put it in your character area.
+  You will also receive all art cards for that character (3 types x 5 copies).
+  Character selection proceeds in this order: You → Opponent → You → Opponent.
 
-   If you are the "Initiative selector", you chooses to go first or second.
+  "Turn order selection": If you are the player who get to pick turn order, you choose to go first or second.
 + Each player shuffles their two art card sets (15 + 15 cards) into one deck and put it in their deck area.
 + Each player draws their initial hand of 4 cards.
 
@@ -113,7 +119,10 @@ You win if you meet any of the following conditions:
 #pagebreak()
 = Turn structure
 
-Ready & Draw Phase → Main Phase → End Phase
+#[
+  #set align(center)
+  Ready & Draw Phase → Main Phase → End Phase
+]
 
 == Ready & Draw Phase
 
@@ -134,7 +143,7 @@ The active player does the following in order:
 The active player can perform any of the following action after #link(<pay-for-action>, [paying for the action]).
 You can perform as many actions as you like in any order.
 
-=== Playing an art card
+=== Play an art card
 
 Put an art card from your hand into the field in the ready state.
 
@@ -165,7 +174,7 @@ Then, perform the following steps:
 
 + That art gets +1 power.
 
-   \* If the DRIVE card is removed, the power will decrease.
+   \* If the DRIVE card is removed later, the power will decrease.
 + If there is a \[DRIVE\] effect in the art card, it will be activated.
 + Draw 1 card.
 + OVERDRIVE: When the 4th DRIVE card is attached to an art, it gains OVERDRIVE:
@@ -175,7 +184,7 @@ Then, perform the following steps:
 
 Notes:
 
-- During step 1-4 no other effects can be triggered.
+- During step 1-4, do not resolve other effects.
 - If an art card leaves play, put all its DRIVE card in the discard pile.
 - Since DRIVE cards are considered to be in the DRIVE area, effects such as \[ENTER\] and \[EXIT\] will not be activated.
 
@@ -243,7 +252,9 @@ A: Yes.
 Q: What happens if there is only one face down GEAR card when resolving "Synthesis of Void and Wisdom"? \
 A: The effect cannot be activated.
 
-Q: When my "State of Transcendence" attacks with 5 power, if the opponent blocks with "Looping Dark Barrier" and activates its effect, how to resolve the \[SPIKE\] effect? \
+Q: My "State of Transcendence" attacks with 5 power.
+   The opponent blocks with "Looping Dark Barrier" and activates its effect.
+   How to resolve the \[SPIKE\] effect? \
 A: Because "Looping Dark Barrier" will not receive damage from "State of Transcendence", the effect of \[SPIKE\] will not be resolved.
 
 Q: If I activate the effect of "Looping Dark Barrier" when it takes damage from my opponent's art during a block, will the damage dealt to my opponent's art decrease? \
@@ -281,7 +292,7 @@ A: Yes.
 Q: Is it possible to recover more life than the initial value? \
 A: Yes.
 
-Q: Does the victory condtion "opponent draws from a deck with no cards" also cover drawing due to reasons such as DRIVE? \
+Q: Does the victory condition "opponent draws from a deck with no cards" also cover drawing due to reasons such as DRIVE? \
 A: Yes.
 
 Q: If there is only 1 card in my deck, can I choose the "draw 2 cards" effect of "Blood-stained Crimson Wings"? \
