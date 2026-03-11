@@ -1,0 +1,38 @@
+---
+- name: Islay Rothery
+  cards:
+    - name: Transfer Operation
+      quote: "Do you think you can win?"
+      effect: |
+        [ENTER] GEARLINK ①: Reveal 5 cards from the top of your deck and discard them. Then, target 3 cards in your discard pile and return them to the bottom of your deck in any order.
+        [EXIT] GEARLINK ①: Reveal 1 card from the bottom of your deck and put it into play.
+    - name: State of Transcendence
+      quote: "Sorry, your plan didn't work."
+      effect: |
+        [SPIKE]
+        [ATTACK] GEARLINK ①: Until the end phase, this art gets +3 power.
+        [EXIT] GEARLINK ①: You may discard 1 "Chosen for Condemnation" from your hand. If you do so, target 1 of your opponent's arts and return it to the bottom of their deck.
+    - name: Chosen for Condemnation
+      quote: "Let's get this over with."
+      effect: |
+        [ENTER] GEARLINK ④: Destroy all other arts.
+        [DRIVE] GEARLINK ①: Target your opponent or 1 of their arts and deal the target 4 damage.
+- name: Alicia Heart
+  cards:
+    - name: Radiant Magical Power
+      quote: "I got your back, leave it to me."
+      effect: |
+        [ENTER]: Target 1 card from your hand, put it into play.
+        [RETREAT] GEARLINK ①: Choose one:
+        • You gain 3 life.
+        • Target 1 of your opponent's arts, exhaust it.
+    - name: Outstanding Intellect
+      quote: "It's important to plan ahead, right?"
+      effect: |
+        At the end of your opponent's ready & draw phase, GEARLINK ④: Exhaust all of their arts.
+        [ENTER]: You may target 2 of your arts and destroy them. If you do, target your opponent or 1 of their arts and deal the target 3 damage.
+    - name: Looping Dark Barrier
+      quote: "You shall not pass"
+      effect: |
+        When this art would take damage, you may instead discard 1 of its DRIVE cards.
+        [DRIVE]: Ready this art.

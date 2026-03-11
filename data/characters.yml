@@ -152,3 +152,75 @@
       effect: |
         When this art would take damage, you may instead discard 1 of its DRIVE cards.
         [DRIVE]: Ready this art.
+- name: Alice Laval
+  cards:
+    - name: Flickering shadow
+      quote: "Oh, you are still standing?"
+      effect: |
+        [ENTER]: GEARLINK ①: Draw 2 cards. Discard 1 card.
+        [ATTACK]: You may discard 1 card. If you do, target your opponent or 1 of their arts and deal the target 4 damage.
+    - name: Surreal Strength
+      quote: "Heh, so that's all you've got."
+      effect: |
+        [ACTIVE]
+        [ENTER]: You may banish 3 cards from your discard pile. If you do, this art gains DRAIN for this turn.
+        [ATTACK]: You may discard 2 cards. If you do, target 1 "Surreal Strength" in your discard pile, DRIVE it into this art.
+    - name: Scornful Gaze
+      quote: "Can you just disappear, please?"
+      effect: |
+        [SPIKE]
+        [DRIVE] GEARLINK ①: You may discard 1 card. If you do, target 1 card in your discard pile, add it to your hand.
+        [ATTACK]: You may banish 6 cards from your discard pile. If you do, this art gets +3 power until the end phase.
+- name: Kaguya Tsukimiya
+  cards:
+    - name: Clear as Mirror, Still as Water
+      quote: "Heaven and Fate shall be on my side!"
+      effect: |
+        Damage taken by you or your arts is reduced by 1.
+        [ENTER] GEARLINK ①: Reveal the top 4 cards of your deck. Add all Kagura-bound arts to your hand, discard the rest.
+    - name: Gale Arrow
+      quote: "Your corruption will be purified!"
+      effect: |
+        [ENTER]: You may target 1 "Clear as Mirror, Still as Water" on your field and put it into your GEAR gauge. If you do, treat it as a [TALISMAN].
+        [ATTACK] GEARLINK ②: Target 1 of your opponent's arts, banish it.
+    - name: Sunlit Blade
+      quote: "I shall strike with all my might!"
+      effect: |
+        [ENTER] GEARLINK ⑧: On your opponent's next turn, all of their exhausted art and GEAR cards will not ready.
+        [DRIVE]: Deal X damage to all of your opponent's arts where X is the number of [TALISMAN] that you have.
+- name: Darkside Lelia
+  cards:
+    - name: Game of Silence
+      quote: "I bet you still can’t see it"
+      effect: |
+        [ENTER]: Target up to 2 cards in your discard pile. You may banish them.
+        [EXIT] GEARLINK ①: Target one of your opponent's arts, deal it X damage where X is the number of your banished cards.
+    - name: Dark Folly
+      quote: "I feel no pain."
+      effect: |
+        [ENTER] GEARLINK ①: Target 1 of your banished arts, put it into play.
+        [DRIVE] GEARLINK ②: Target 1 of your opponent's arts, deal it X damage, you gain X life where X is the number of your banished cards.
+    - name: Impending doom
+      quote: "You are so helpless."
+      effect: |
+        This art gets +X power where X is the number of your banished cards.
+        [ENTER] GEARLINK ⑥: Deal X damage to all arts where X is the number of your banished cards.
+- name: Lilly Campbell
+  cards:
+    - name: Domain of Joy
+      quote: "This is easy~♪ So easy~♪"
+      effect: |
+        If you would take any damage from an effect, this art takes that damage instead.
+        [ENTER] GEARLINK ①: Choose one:
+        • You gain 4 life.
+        • Target one of your opponent's arts, exhaust it.
+    - name: Emerald Gale
+      quote: "Hah! You let your guard down!"
+      effect: |
+        [ENTER]: Target a DRIVE card belonging to you or your opponent. You may return it to the owner's hand.
+        [ATTACK] GEARLINK ①: Target one of your opponent's arts, deal it 3 damage. If it would [EXIT], banish it instead.
+    - name: Soaring Emerald Wings
+      quote: "Leave the buffing to me!"
+      effect: |
+        If this art has 3 or more DRIVE cards, all your arts gain +3 power and [SPIKE].
+        [DRIVE]: Look at the top card of your deck, you may put it into your discard pile.

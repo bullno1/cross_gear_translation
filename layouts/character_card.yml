@@ -34,7 +34,7 @@ card_1.effect:
   y: += 0.15in
   width: 2.4in
   height: 1.0in
-  font: Arial 7
+  font: Noto Sans Medium 7
   wrap: :word
   ellipsize: :autoscale
 card_2.effect:
